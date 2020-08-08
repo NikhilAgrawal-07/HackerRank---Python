@@ -1,0 +1,14 @@
+a = list(map(int, input().rstrip().split()))
+b = list(map(int, input().rstrip().split()))
+c=0
+d=0
+e=[]
+for i in range(len(a)):
+    if a[i]>b[i]:
+        c=c+1
+    elif a[i]<b[i]:
+        d=d+1
+    else:
+        pass
+print(c,end=' ')
+print(d)
