@@ -1,0 +1,16 @@
+n = int(input())
+arr = list(map(int, input().rstrip().split()))
+a=len(arr)
+b=0
+c=0
+d=0
+for i in range(a):
+    if arr[i]>0:
+        b=b+1
+    elif arr[i]<0:
+        c=c+1
+    else:
+        d=d+1
+print(b/a)
+print(c/a)
+print(d/a)
